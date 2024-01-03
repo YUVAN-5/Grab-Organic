@@ -34,7 +34,7 @@ function Dashhome()
     return(
         <>
         <div id="main-wrapper">
-		<div className="foot"><marquee>Flat 60% Off!!Ends soon...Shop before u Worry!!..</marquee>
+		<div className="foot">Flat 60% Off!!Ends soon...Shop before u Worry!!..
         </div>
 		<div className="navbar">
         {/* <div className='logo'>

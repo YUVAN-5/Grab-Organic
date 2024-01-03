@@ -23,15 +23,15 @@ const Footer = () => {
           <p>Stay connected on social media for updates and promotions:</p>
           <div className="social-icons">
             {/* Add your social media icons and links here */}
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="index.html" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-facebook">
                
               </i>
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="index.html" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-twitter"></i>
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="index.html" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-instagram"></i>
             </a>
           </div>
