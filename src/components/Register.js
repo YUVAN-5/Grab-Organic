@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 // import './Signup.css'
 import '../Assets/css/Signup.css'
-import { Navigate, useNavigate } from 'react-router-dom'
+import {useNavigate } from 'react-router-dom'
 import signupbg from'../Assets/img/backhd.jpg'
 import { Link } from 'react-router-dom'
 import { emailValidator, passwordValidator } from '../components/Validater'

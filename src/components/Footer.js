@@ -1,8 +1,6 @@
 import React from 'react';
 import '../Assets/css/Footer.css'; // Import your custom footer styles
-import utube from '../Assets/img/youtube.jpg';
-import tweet from '../Assets/img/twitter.jpg';
-import fab from '../Assets/img/facebook.jpg';
+
 const Footer = () => {
   return (
     <footer className="footer-container">
