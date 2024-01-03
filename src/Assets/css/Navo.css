@@ -1,0 +1,80 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-Items: 'center';
+    background: rgb(9, 10, 10);
+    text-decoration:none ;
+    height: 60px;
+    /* font-family:'Chiller'; */
+    color: antiquewhite;
+    position:fixed;
+    width:100%;
+    overflow:hidden;
+    margin-top: -.5rem;
+}
+.foot{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 1000;
+    font-size: 25px;
+    align-items: center;
+    height: 40px;
+    margin-top: -2.4rem;
+    position: fixed;
+    width: 100%;
+    overflow:hidden;
+    background-color: antiquewhite;
+    
+    
+}
+.coll{
+    font-weight: 800;
+    font-size: larger;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    /* gap:2rem; */
+    transform: translate(-200px,5px);
+    
+}
+
+.logoname
+{
+    font-family: 'Chiller';
+    display: flex;
+    padding-right: 100px;
+    justify-content:space-between;
+    /* align-items: center; */
+    color:antiquewhite;
+    margin-left: 15%;
+    /* height: max-content; */
+}
+.texts{
+    display: flex;
+    margin: 0;
+    align-items: center;
+    color:antiquewhite;
+    list-style: none;
+    text-decoration:none ;
+    gap: 3rem;
+    font-family:'Courier New', Courier, monospace;
+    margin-right: 3%;
+    
+}
+.texts li{
+    list-style: none;
+    font-size:130%;
+    /* font-family:'monospace'; */
+}
+.texts li::after{
+    content:'';
+    width:0%;
+    height:3px;
+    background: white;
+    display:block;
+    margin:auto;   
+    transition:0.5s;
+}
+.texts li:hover::after{
+    width: 100%;
+}

@@ -1,0 +1,44 @@
+.naveg{
+    display: flex;
+    justify-content: space-between;
+    align-Items: 'center';
+    background: rgb(9, 10, 10);
+    text-decoration:none ;
+    height: 60px;
+    /* font-family:'Chiller'; */
+    color: antiquewhite;
+    position:fixed;
+    width:100%;
+    overflow:hidden;
+    margin-top: 1%;
+}
+.vegname
+{
+    font-family: 'Chiller';
+    display: flex;
+    padding-right: 100px;
+    justify-content:space-between;
+    /* align-items: center; */
+    color:antiquewhite;
+    margin-left: 15%;
+    /* height: max-content; */
+}
+
+.image-cont{
+    position:relative;
+    /* margin-top: 5rem; */
+    height: 50%;
+    width: 80%;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Chiller';
+    font-size: 500%;
+    /* margin-top: 50%; */
+     color: #fff;/* Set text color to white or any color that contrasts with the image */
+}

@@ -1,0 +1,16 @@
+.image-container {
+    position:relative;
+    margin-top: 5%;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Chiller';
+    font-size: 500%;
+    
+     color: #fff;/* Set text color to white or any color that contrasts with the image */
+}

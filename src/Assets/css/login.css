@@ -1,0 +1,90 @@
+
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    /* background-image:url("https://liveorganic.co.in/cdn/shop/files/live-11-min_1512x.jpg?v=1659502408");   */
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+ 
+.form-box{ 
+    width:100%;
+    max-width:350px;
+    position: absolute;
+    top: 32%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background: #fff;
+    padding: 50px 60px 70px;
+    text-align:center;
+    color: black;
+    /* background-color: rgb(56, 196, 56); */
+    background: transparent;
+    backdrop-filter: blur(10px);
+    /* backface-visibility: hidden; */
+
+}
+.form-box h1{
+    font-size: 30px;
+    margin-bottom: 60px;
+    color:white;
+    position: relative;
+    /* font-family: 'Chiller'; */
+}
+.form-box h1::after{
+    content: '';
+    width:30px;
+    height:4px;
+    border-radius:3px;
+    background:white;
+    position: absolute;
+    bottom:-12px;
+    left:50%;
+    transform: translateX(-50%);
+
+}
+
+.input-field{
+    margin: 15px;
+    border-radius:3px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    overflow: hidden;
+    
+
+
+}
+input:hover{
+    background-color: black;
+}
+
+input{
+    width:100%;
+    background: transparent;
+    padding: 18px 15px;
+    color: #fff ;
+    border-radius: 50px;
+}
+/* .input-field i{
+    margin-left: 15px;
+    color: rgb(10, 10, 10);
+    
+ } */
+.btn-field{
+    width:50%;
+    display:flex;
+    justify-content: space-between; 
+    padding:10px 80px;
+}
+.btn-field button{
+    flex-basis:35%;
+    background: black;
+    color: rgb(255,255,255);
+    height:40px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 1s;
+    gap:50px;
+}
